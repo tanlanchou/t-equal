@@ -1,0 +1,22 @@
+{
+  "name": "t-equal",
+  "version": "0.0.1",
+  "description": "equal javascript object",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "tommy",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "mocha": "^10.2.0",
+    "side-channel": "^1.0.4"
+  }
+}
