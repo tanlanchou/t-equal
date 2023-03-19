@@ -1,22 +1,18 @@
 {
-  "name": "t-equal",
-  "version": "0.0.1",
-  "description": "equal javascript object",
+  "name": "t_valid_type",
+  "version": "1.0.1",
+  "description": "valid types",
   "main": "index.js",
+  "keywords": [
+    "check types"
+  ],
+  "homepage": "https://github.com/tanlanchou/ttype",
   "scripts": {
     "test": "mocha"
   },
-  "author": "tommy",
+  "author": "tanlanchou",
   "license": "ISC",
   "devDependencies": {
-    "clean-webpack-plugin": "^4.0.0",
-    "html-webpack-plugin": "^5.5.0",
-    "webpack": "^5.75.0",
-    "webpack-cli": "^5.0.1",
-    "webpack-dev-server": "^4.11.1"
-  },
-  "dependencies": {
-    "mocha": "^10.2.0",
-    "side-channel": "^1.0.4"
+    "mocha": "^10.2.0"
   }
 }

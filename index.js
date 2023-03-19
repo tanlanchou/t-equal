@@ -1,5 +1,5 @@
-var { typeofValue, types } = require("./enum");
-var { is, equal } = require("./common");
+var { typeofValue, types } = require("./src/enum");
+var { is, equal } = require("./src/common");
 
 function hasSymbol() {
   var origSymbol = typeof Symbol !== "undefined" && Symbol;

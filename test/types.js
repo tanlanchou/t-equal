@@ -18,7 +18,7 @@ var {
   isMap,
   isWeakSet,
   isWeakMap,
-} = require("../src/index");
+} = require("../index");
 
 var commonFalseParams = [
   undefined,
